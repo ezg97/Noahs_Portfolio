@@ -1,52 +1,53 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { CgGoogle } from "react-icons/cg";
+import {   IoIosColorFilter } from "react-icons/io"
+
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-} from "react-icons/di";
-import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
+
+  SiAdobeaftereffects,
+  SiAdobepremierepro,
+  SiAdobecreativecloud,
+  SiAdobephotoshop,
+  SiGoogleads,
+  // standing in place for DaVinci Resolve
+  SiAudacity,
+  SiObsstudio,
+  SiMicrosoft
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiAdobeaftereffects />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiAdobepremierepro />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiAdobecreativecloud />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiAdobephotoshop />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiObsstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <IoIosColorFilter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiAudacity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiMicrosoft />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <CgGoogle />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiGoogleads />
       </Col>
     </Row>
   );

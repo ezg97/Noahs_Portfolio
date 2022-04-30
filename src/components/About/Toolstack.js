@@ -1,30 +1,27 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { CgGoogle } from "react-icons/cg";
+
 import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
+  SiInstagram,
+  SiFacebook,
+  SiYoutube,
 } from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+       <Col xs={4} md={2} className="tech-icons">
+        <SiInstagram />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiFacebook />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiYoutube />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <CgGoogle />
       </Col>
     </Row>
   );
